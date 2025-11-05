@@ -1,0 +1,258 @@
+/*  #7ed63b; (Light Green) #22b62a (Green), #1d7101 (Dark Green), #2920DF (Blue)
+/* Color Scheme may change in future lab assignments */
+
+body{
+    background-image: url("images/bg.jpg");
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.wrapper{
+    text-align: center;
+    background-color: #7ed63b;
+    margin-top: 5%;
+}
+
+.wrapper2{
+    text-align: center;
+    background-color: #22b62a;
+}
+
+.heading {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3vh;
+    font-weight: bold;
+    color:#1d7101;
+}
+
+
+#showimagecontainer {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: end;
+}
+
+#showimageitem {
+    width: 140px;
+    height: 140px;
+    border-style: solid;
+    border-width: 7px;
+    border-radius: 100px;
+}
+
+#showimageitem2 {
+    width: 140px;
+    height: 140px;
+    border-style: solid;
+    border-width: 7px;
+    border-radius: 100px;
+}
+
+#showimageitem3 {
+    width: 140px;
+    height: 140px;
+    border-style: solid;
+    border-width: 7px;
+    border-radius: 100px;
+}
+
+#showimageitem4 {
+    width: 140px;
+    height: 140px;
+    border-style: solid;
+    border-width: 7px;
+    border-radius: 100px;
+}
+
+#showimageitem5 {
+    width: 140px;
+    height: 140px;
+    border-style: solid;
+    border-width: 7px;
+    border-radius: 100px;
+}
+
+p {
+    color: #000000
+}
+
+h1 {
+    color:#1d7101;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
+
+
+h2{
+    text-decoration: underline;
+    font-size: 20px;
+    color:#2920DF;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h3 {
+    text-decoration: underline;
+    font-size: 30px;
+    color:#1d7101;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h4{
+    font-size:20px;
+    color:#2920DF;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ul {
+    margin: auto;
+    list-style-position: outside;
+    text-align: left;
+    width: 200px;
+    color:#000000
+}
+
+#me {
+    border-style: solid;
+    border-color:green;
+    border-width: 7px;
+    border-radius: 5px;
+}
+
+.footer {
+    font-size:15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navmenu {
+    list-style-type: none;
+    width: 25%;
+    margin:0;
+    padding:0;
+    background-color: white;
+    float:left;
+}
+
+a:link {
+    color:#2920DF;
+    text-decoration: none;
+    border-color:#2920DF;
+}
+
+a:visited {
+    color:#1d7101;
+    text-decoration: none;
+    border-color:#1d7101;
+}
+
+a:hover {
+    color:red;
+    text-decoration: underline;
+    border-color:red;
+
+}
+
+a:active {
+    color:orange;
+    text-decoration: none;
+    border-color:orange;
+}
+
+.navlist  a {
+    display:block;
+    padding: 2em;
+    text-decoration: none;
+}
+
+.navlist a.active {
+    background-color:#7ed63b;
+    color:rgb(0, 0, 0);
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.navlist a:hover:not(.active) {
+    background-color:#7ed63b;
+    color:white;
+}
+
+#socialmedia {
+    display:flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    justify-content: space-evenly;
+    align-items: end;
+}
+
+#social1 {
+    width: 100px;
+    height: 100px;
+    border-style: solid;
+    border-width: 7px;
+    border-radius: 7px;
+}
+
+#social2 {
+    width: 100px;
+    height: 100px;
+    border-style: solid;
+    border-width: 7px;
+    border-radius: 7px;
+}
+
+#social3 {
+    width: 100px;
+    height: 100px;
+    border-style: solid;
+    border-width: 7px;
+    border-radius: 7px;
+}
+
+th {
+    text-align: center;
+    padding-right: 100px;
+}
+
+td {
+    padding-right: 100px;
+}
+
+table {
+    margin-left:auto;
+    margin-right:auto;
+}
+
+@media screen and (max-width: 880px) {
+    nav {
+        overflow: hidden;
+        background-color: #22b62a;
+    }
+
+    .navmenu {
+        clear: left;
+        width: 100%;
+    }
+
+    .navlist {
+        float: left;
+    }
+
+    .navlist a {
+        display: block;
+        text-align: center;
+        padding: 1.5em;
+        text-decoration: none;
+    }
+
+    .wrapper {
+        margin-left: 0;
+    }
+}
+@media print {
+    nav, .navmenu {
+        display:none;
+    }
+
+    .wrapper {
+        margin-left:0;
+    }
+}
